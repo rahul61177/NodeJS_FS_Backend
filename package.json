@@ -1,0 +1,25 @@
+{
+  "name": "nodejs_fs_backend",
+  "version": "1.0.0",
+  "description": "Nodejs Rest API Backend Service",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage",    
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "NodeJS",
+    "RestAPI",
+    "service"
+  ],
+  "author": "Rahul Upadhyaya",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.4.2",
+    "nodemon": "^2.0.20"
+  }
+}
