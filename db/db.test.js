@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 //describe, test() and expect() functions
 
-jest.mock('./db');
+//jest.mock('./db');
 
 beforeAll(async () => {
     return await connect();
